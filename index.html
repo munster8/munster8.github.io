@@ -1,7 +1,87 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysia My Second Home | Aalia (MM2H) Sdn Bhd</title>
+    <style>
+        /* Basic styling */
+        body {
+            background-color: #d9f2d9; /* Light green background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        /* Header styling */
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            height: 200px;
+            margin-right: 20px;
+        }
+        .nav {
+            margin-left: auto;
+        }
+
+        /* Navigation bar styling */
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav li {
+            margin-right: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #006400; /* Dark green for contrast */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #004d00; /* Darker green on hover */
+        }
+
+        /* PDF Container */
+        .pdf-container {
+            max-width: 90%;
+            height: 80vh;
+            margin: 20px auto;
+            border: 2px solid #cccccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+    </style>
+</head>
 <body>
-  <h1>MUNSTER8</h1>
-  <p>Welcome to my effin website!</p>
-  <img src="https://media1.tenor.com/m/BtovJjUDOFUAAAAC/slinky.gif" />
+    <!-- Header with Logo and Navigation Bar -->
+    <header class="header">
+        <img src="aalia_logo2.png" alt="Company Logo" class="logo">
+        <nav class="nav">
+            <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="mm2h-programme.html">MM2H Programme</a></li>
+                <li><a href="mm2h-resources.html">MM2H Resources</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PDF Embed Section -->
+    <div class="pdf-container">
+        <object data="MM2H Brochure_AaliaMM2HSdnBhd.pdf" type="application/pdf" width="100%" height="100%">
+            <p>Your browser does not support PDFs. Please download the PDF to view it: 
+                <a href="MM2H Brochure_AaliaMM2HSdnBhd.pdf">Download PDF</a>.
+            </p>
+        </object>
+    </div>
 </body>
+</html>
