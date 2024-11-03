@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aalia Licensed MM2H Agent Malaysia | Home</title>
+    <title>Aalia Licensed MM2H Agent Malaysia | Download Brochure</title>
     <style>
         /* Basic styling */
         body {
@@ -63,54 +63,6 @@
             background-color: #560319;
 			font-weight: bold;
         }
-		
-		 /* Section Container */
-        .section-container {
-            max-width: 800px;
-            margin: 40px auto;
-            background-color: #f4f4f9; /* Light gray background */
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        /* Section Header */
-        .section-header {
-            font-size: 2em;
-            font-weight: bold;
-            color: #c80815 ; /* Venetian red */
-            margin-bottom: 10px;
-            text-align: left;
-        }
-		
-		 /* Section Subheader */
-        .section-subheader {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: #c80815 ; /* Venetian red */
-            margin-bottom: 1px;
-            text-align: left;
-        }
-
-        /* Paragraph Styling */
-        .section-paragraph {
-            font-size: 1em;
-            color: #555; /* Darker gray for better readability */
-            margin-bottom: 40px;
-            text-align: justify;
-			line-height: 1.25
-        }
-		
-		/* Section list styling */        
-        ul.section-list {
-            list-style-type: default;
-			font-size: 1em;
-            color: #555; /* Light grey */
-            font-weight: normal;
-            padding: 4px 30px;
-			text-align: justify;
-			line-height: 1.25
-        }
 
         /* PDF Container */
         .pdf-container {
@@ -123,7 +75,7 @@
         }
 		
 		/* Footer Styles */
-       	footer {
+        footer {
 			align-items: center;
 			background-color: #8B0000; /* Dark red */
 			bottom: 0;
@@ -158,24 +110,12 @@
                 gap: 10px;
             }
         }
-		
-		@media (max-width: 600px) {
-            .section-container {
-                padding: 15px;
-            }
-            .section-header {
-                font-size: 1.5em;
-            }
-            .section-paragraph {
-                font-size: 0.9em;
-            }
-        }
     </style>
 </head>
 <body>
     <!-- Header with Logo and Navigation Bar -->
     <header class="header">
-        <a href="index.html" target="_blank" rel="external nofollow"> <img src="images/aalia_logo2.png" alt="Aalia MM2H" class=logo /><br /> </a>
+		<a href="index.html" target="_blank" rel="external nofollow"> <img src="images/aalia_logo2.png" alt="Aalia MM2H" class=logo /><br /> </a>
         <nav class="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -188,26 +128,22 @@
         </nav>
     </header>
 
-    <!-- Section with Header and Paragraphs -->
-    <div class="section-container">
-        <h2 class="section-header">Malaysia My Second Home (MM2H) Application</h2>
-		<p class="section-paragraph">
-        </p>
-		<h3 class="section-subheader"> <strong>We offer expert guidance to make Malaysia your second home</strong></h3>
-		<p class="section-paragraph">
-        </p><p class="section-paragraph">
-            For more information on the application process and the tier options, refer the <em><strong>Aalia MM2H</strong></em> company brochure (<a href="pdf/MM2H Brochure_AaliaMM2HSdnBhd.pdf">Download HERE</a>).
-        </p>
-		<p class="section-paragraph">
-           	Click <a href="contact-us.html">HERE</a> for contact details.
-        </p>
+    <!-- PDF Embed Section -->
+    <div class="pdf-container">
+        <object data="pdf/MM2H Brochure_AaliaMM2HSdnBhd.pdf" type="application/pdf" width="100%" height="100%">
+            <p>Your browser does not support PDF viewing. Please download the brochure to view it: 
+                <a href="MM2H Brochure_AaliaMM2HSdnBhd.pdf">Download brochure</a>.
+            </p>
+        </object>
 	</div>
+		
 	<!-- Footer -->
 	<footer>
-	<div>
+    <div>
         <p>&copy; 2024 Aalia (MM2H) Sdn Bhd</p>
 		<p>All rights reserved</p>
 	</div>
     </footer>
+		
 </body>
 </html>
